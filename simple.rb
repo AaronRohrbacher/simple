@@ -1,8 +1,9 @@
 require('pg')
 
+DB= PG.connect({:dbname => 'simple'})
+
 class Task
   attr_reader(:task)
-  DB= PG.connect({:dbname => 'simple'})
 
   def initialize(attributes)
     @task = attributes.fetch(:task)
