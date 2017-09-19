@@ -29,8 +29,8 @@
 
   ###### Fuckin' sweet! We can see the individual task! Let's add another item:
 
-  - > task2 = Task.new(:task => "Another task!")
-  - > task2.save
+  ###### `> task2 = Task.new(:task => "Another task!")`
+  ###### `- > task2.save`
 
         Now, we have two items in our database. Let's get weird! Try this:
 
