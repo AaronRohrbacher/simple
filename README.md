@@ -15,10 +15,10 @@
 
   ###### THE FUN PART:
 
-  ###### `Task.access[0]`
+  ###### `> Task.access[0]`
 
 
-        ##### Cool! It saved a thing to the database, and now we can access it! Now try:
+  ##### Cool! It saved a thing to the database, and now we can access it! Now try:
 
 
   - > Task.access[0].fetch("id")
