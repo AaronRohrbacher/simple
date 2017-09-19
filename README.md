@@ -32,11 +32,11 @@
   ###### `> task2 = Task.new(:task => "Another task!")`
   ###### `- > task2.save`
 
-        Now, we have two items in our database. Let's get weird! Try this:
+  ###### Now, we have two items in our database. Let's get weird! Try this:
 
-  - > search_query = DB.exec("SELECT * FROM tasks WHERE id = 1;")
-  - > search_query[0]
-        Brah/Brosephine! We got an "array" (it's not a true array, but PG's awesome-ass version of one) of only the matching things! Though we have two items in our database, search_query will only contain things with the id of 1. In the next line, we'll see that this "array" does not contain anything that does not have the id of 1. Remember that an array index starts at 0!
+  ###### `> search_query = DB.exec("SELECT * FROM tasks WHERE id = 1;")`
+  ###### `> search_query[0]`
+  ###### Brah/Brosephine! We got an "array" (it's not a true array, but PG's awesome-ass version of one) of only the matching things! Though we have two items in our database, search_query will only contain things with the id of 1. In the next line, we'll see that this "array" does not contain anything that does not have the id of 1. Remember that an array index starts at 0!
 
   - > search_query[1]
         Error city! The search_query variable only asks for things with the id of 1. The queried array only contains one item, and arrays start at 0.
