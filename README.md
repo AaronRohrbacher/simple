@@ -23,9 +23,11 @@
 
   ###### `> Task.access[0].fetch("id")`
 
-  ###### Wow! We can access any part of the task that we inserted into the database (the id is inserted automatically, as we created a 'serial' value in the database for 'id').
-  - > Task.access[0].fetch("task")
-        Fuckin' sweet! We can see the individual task! Let's add another item:
+  ###### Wow! We can access any part of the task that we inserted into the database (the id is inserted automatically, as we created a 'serial' value in the database for 'id'). Now try this:
+
+  ###### `> Task.access[0].fetch("task")`
+
+  ###### Fuckin' sweet! We can see the individual task! Let's add another item:
 
   - > task2 = Task.new(:task => "Another task!")
   - > task2.save
