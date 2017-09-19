@@ -5,7 +5,7 @@
   ###### `# \c simple;`
   ###### `# CREATE TABLE tasks (id serial PRIMARY KEY, task varchar);`
 
-3. In a new window/tab, run IRB and do this stuff:
+###### 3. In a new window/tab, run IRB and do this stuff:
   - Copy ALL of the code (including the require- were you listening? I said ALL of the code) in 'simple.rb' and paste in IRB. Press enter if need be- you should see a return of => :access (this is the last method created in the class).
 
   The rest remains in IRB.
