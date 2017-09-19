@@ -1,8 +1,8 @@
-1. Make sure Postgres is running in a lone terminal window/tab.
+_1. Make sure Postgres is running in a lone terminal window/tab._
 
-2. In a new window/tab, run psql, and do this (make sure your semicolons are there!):
+_2. In a new window/tab, run psql, and do this (make sure your semicolons are there!):_
   `# CREATE DATABASE simple;`
-  - # \c simple;
+  `# \c simple;`
   - # CREATE TABLE tasks (id serial PRIMARY KEY, task varchar);
 
 3. In a new window/tab, run IRB and do this stuff:
