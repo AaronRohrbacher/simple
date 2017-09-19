@@ -11,7 +11,7 @@
   The rest remains in IRB.
 
   ###### `> task = Task.new(:task => "anything you want")`
-  ###### `task.save`
+  ###### `> task.save`
 
   ###### THE FUN PART:
 
@@ -21,8 +21,8 @@
   ##### Cool! It saved a thing to the database, and now we can access it! Now try:
 
 
-  - > Task.access[0].fetch("id")
-        Wow! We can access any part of the task that we inserted into the database (the id is inserted automatically, as we created a 'serial' value in the database for 'id').
+  ###### `> Task.access[0].fetch("id")`
+        ###### Wow! We can access any part of the task that we inserted into the database (the id is inserted automatically, as we created a 'serial' value in the database for 'id').
   - > Task.access[0].fetch("task")
         Fuckin' sweet! We can see the individual task! Let's add another item:
 
