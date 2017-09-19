@@ -1,7 +1,7 @@
 1. Make sure Postgres is running in a lone terminal window/tab.
 
 2. In a new window/tab, run psql, and do this (make sure your semicolons are there!):
-  - # CREATE DATABASE simple;
+  # CREATE DATABASE simple;
   - # \c simple;
   - # CREATE TABLE tasks (id serial PRIMARY KEY, task varchar);
 
@@ -48,6 +48,6 @@
   - > search_query[0]
         and, again, this will be the only thing in our query:
   - > search_query[1]
-        Errors are our friend here! The search_query variable only contains the item we wanted. Time for another beer! 
+        Errors are our friend here! The search_query variable only contains the item we wanted. Time for another beer!
 
 As you may see, the possibilities are limitless from here- we can access any row in our database, and any part of a row in our database. IMO, creating a seperate array and pushing each thing to it is pointless, but I'm sure I'll eat those words next week!
