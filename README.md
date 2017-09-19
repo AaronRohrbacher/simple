@@ -1,6 +1,6 @@
 1. Make sure Postgres is running in a lone terminal window/tab.
 
-2. In a new window/tab, run psql, and do this (make sure your semicolons are there!):_
+2. In a new window/tab, run psql, and do this (make sure your semicolons are there!):
   `# CREATE DATABASE simple;`
   - # \c simple;
   - # CREATE TABLE tasks (id serial PRIMARY KEY, task varchar);
