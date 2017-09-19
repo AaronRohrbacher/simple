@@ -10,7 +10,7 @@
 
   The rest remains in IRB.
 
-  ######> `task = Task.new(:task => "anything you want")`
+  ###### `> task = Task.new(:task => "anything you want")`
   - > task.save
 
     THE FUN PART:
